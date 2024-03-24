@@ -3,8 +3,8 @@
 #include <Wire.h>             
 #include "images.h"
 
-static const char* WIFI_SSID = "Redmi Note 7 Pro";
-static const char* WIFI_PASS = "0987654321";
+static const char* WIFI_SSID = "NSUT_WIFI";
+static const char* WIFI_PASS = "";
 
 esp32cam::Resolution initialResolution;
 

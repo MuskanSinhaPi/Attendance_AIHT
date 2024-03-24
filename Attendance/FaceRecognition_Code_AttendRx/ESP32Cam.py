@@ -9,9 +9,9 @@ import csv
 from datetime import date
 
 # ESP32-CAM IP address
-esp32cam_url = 'http://192.168.43.115/640x480.jpg'
+esp32cam_url = 'http://10.100.222.162/640x480.jpg'
 
-rollNo={'APARNA':'2021UCA1536','PULKIT':'2021UCA1804','MUSKAN':'2021UCA1814','.DS_STORE':'0'}
+rollNo={'APARNA':'2021UCA1536','PULKIT':'2021UCA1804','MUSKAN':'2021UCA1814','SAHIL':'2020UCA2575','ARNAV':'2021UCS1716','VANSH':'2020UMV1200','YASH':'2021UEI1234','YUVRAJ':'2021UME7610','DIVYA':'2021UME4162','VIDUSHI':'2021UME7251'}
 
 # Function to fetch images from ESP32-CAM
 def get_esp32cam_image():
